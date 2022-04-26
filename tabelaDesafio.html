@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Menções</title>
+    <style>
+        *{
+            font-family: monospace;
+
+        }
+        header{
+            position: fixed;
+            top: 0%;
+            height: 10%;
+            left: 0%;
+            width: 100%;
+            background: #aaa;     
+            border: 2px dashed black;
+        }
+        nav{
+            position: fixed;
+            top: 10%;
+            height: 10%;
+            left: 0%;
+            width: 100%;
+            background: #bbb;     
+            border: 2px dashed black;
+
+        }
+        main{
+            position: fixed;
+            top: 20%;
+            height: 70%;
+            left: 0%;
+            width: 100%;   
+            background: #ccc;     
+        }
+        footer{
+            position: fixed;
+            bottom: 0%;
+            height: 10%;
+            left: 0%;
+            width: 100%;   
+            background: #ddd;     
+            border: 2px dashed black;
+
+        }
+        article{
+            position: fixed;
+            top: 20%;
+            width: 60%;
+            height: 70%;    
+            border: 2px dashed black;
+            border-right: none;
+        }
+        aside{
+            position: fixed;
+            top: 20%;
+            left: 60%;
+            width: 40%;
+            height: 70%;
+            border: 2px dashed black;
+        }
+        table{
+            height: 30%;
+            margin: 15% 5%;
+            width: 80%;
+            border: 2px solid black;
+            border-collapse: collapse;
+
+        }
+        table td, th{
+            text-align: center;
+            border: 2px solid black;
+            width: 20%;
+            font-size: 3rem;
+        }
+        table td:first-child{
+            color: red;
+        }
+        h1{
+            text-align: center;
+            font-size: 2.5rem;
+        }
+        ul li{
+            font-size: 2rem;
+            color: #000;
+            list-style: none;
+            padding: 2%;
+        }
+        ul li:first-child{
+            color: red;
+        }
+        aside figure img{
+            position: absolute;
+            top: 0%;
+            left: 1%;
+            width: 10%;
+        }
+        aside figcaption{
+            position: absolute;
+            top: 10%;
+            left: 1%;
+        }
+        article figure img{
+            position: absolute;
+            top: 0.5%;
+            width: 5.8%;
+            right: 1%;
+        }
+        article figcaption{
+            position: absolute;
+            top: 10%;
+            right: 1%;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Header</h1></header>
+    <nav><h1>Nav</h1></nav>
+    <main>
+        <article>
+            <h1>Article</h1>
+            <table>
+                <tbody>
+                    <th colspan="4">Menções</th>
+                    <tr>
+                        <td>I</td>
+                        <td>R</td>
+                        <td>B</td>
+                        <td>MB</td>
+                     </tr>
+                </tbody>
+            </table>
+            <figure>
+                <img src="eye.png" alt="Olho Grego">
+                <figcaption>Olho Grego</figcaption>
+            </figure>
+        </article>
+        <aside>
+            <h1>Aside</h1>
+            <ul>
+                <li>Insatisfatório: O aluno obteve desempenho insatisfatório no desenvolvimento das competências</li> 
+                <li> Regular:	O aluno obteve desempenho regular no desenvolvimento das competências</li> 
+                <li> Bom:	O aluno obteve bom desempenho no desenvolvimento das competências</li> 
+                 <li> Muito Bom:	O aluno obteve excelente desempenho no desenvolvimento das competências</li> 
+            </ul>
+            <figure>
+                <img src="heart.png" alt="Coração">
+                <figcaption>Coraçãozinho</figcaption>
+            </figure>
+        </aside>
+    </main>
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+</body>
+</html>
